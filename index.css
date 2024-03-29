@@ -1,0 +1,154 @@
+/*INDEX CSS*/
+
+.preheader{
+    font-family: 'header';
+    color: var(--bg-color);
+    background-color: var(--header-txt);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.preheader_txt{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.preheader_link{
+    color: var(--bg-color);
+}
+
+.preheader_icons{
+
+
+
+}
+
+.icon_preheader{
+    color: var(--footer-txt);
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.icon_link:hover{
+    color: var(--bg-color);
+}
+
+
+
+/*MAIN*/
+
+.main{
+    max-width: 100%;
+    font-family: 'text';
+    margin: 0 auto;
+}
+
+.title{
+    color: var(--header-txt);
+    font-size: 70px;
+    text-align: center;
+}
+
+.subtitle{
+    color: var(--subtitle-txt);
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -30px;
+}
+
+.world_img{
+    margin-left: 50px;
+    width: 90%;
+}
+
+.main_midcontainer{
+    background-color: var(--footer-bg);
+    width: 100%;
+    padding: 30px;
+}
+
+.main_midcontainer_paragraph{
+    color: var(--bg-color);
+    font-size: 20px;
+    
+}
+
+.main_midcontainer_title{
+    max-width: 70%;
+    font-size: 50px;
+    color: var(--bg-color);
+
+}
+
+.main_midcontainer_downpart{
+    display: flex;
+}
+
+.leftpart{
+    color: var(--bg-color);
+    font-size: 20px;
+    max-width: 40%;
+    padding-right: 70px;
+}
+
+.rightpart{
+    display: flex;
+    align-items: center;
+    max-width: 40%;
+    margin-left: 50px;
+}
+
+.rightpart_list{
+    list-style-type: none;
+}
+
+.rlist_item{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.rlist_link{
+    color: var(--bg-color);
+}
+
+.main_downcontainer{
+    margin: 50px;
+}
+
+.downcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.downcontainer_box{
+    width: 45%;
+}
+
+.title_m{
+    color: var(--header-txt);
+    font-size: 50px;
+}
+
+.subtitle_m{
+    color: var(--header-txt);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.img_m{
+    margin-left: 50px;
+}
+
+.text{
+    text-decoration: underline;
+}
+
