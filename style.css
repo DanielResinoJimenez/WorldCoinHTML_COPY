@@ -1,0 +1,25 @@
+/*CSS PAGE FOR STYLES*/
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #ffffff;
+    --header-txt: #0e0e0e;
+    --subtitle-txt: #b2b2b2;
+    --footer-bg: #000000;
+    --footer-txt: #7f7f7f;
+
+    
+}
+
+@font-face {
+    font-family: 'header';
+    src: url(./../assets/fonts/Anaheim/Anaheim-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'text';
+    src: url(./../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
