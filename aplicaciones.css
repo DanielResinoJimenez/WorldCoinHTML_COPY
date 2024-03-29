@@ -1,0 +1,142 @@
+/*CSS APLICACIONES FILE*/
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+/*MAIN*/
+
+.main{
+    font-family: 'text';
+}
+
+.title{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.title_h2{
+    font-size: 45px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.dest_app{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.app_title{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.app_cards{
+    display: flex;
+}
+
+.app_card1{
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    background-image: url(./../assets/images/App_img1.webp);
+    background-size: contain;
+    display: flex;
+    align-items:end;
+}
+
+.app_card2{
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+    background-image: url(./../assets/images/App_img2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:end;
+}
+
+.app_card3{
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+    background-image: url(./../assets/images/App_img3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:end;
+}
+
+.card_txt{
+    border: 1px solid var(--footer-txt);
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.card_img{
+    width: 30px;
+}
+
+.txt{
+    font-size: 12px;
+    width: 120px;
+}
+
+.ver_worldid{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.worldid_subtitle{
+    color: var(--footer-txt);
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.worldid_cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 1rem;
+    
+}
+
+.small_card{
+    border: 1px solid var(--footer-txt);
+    border-radius: 10px;
+    width: 370px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card_link{
+    text-decoration: none;
+    color: black;
+}
+
+.card_head{
+    display: flex;
+}
+
+.small_img{
+    width: 20px;
+    margin-right: 20px;
+}
+
+.smallcard_txt{
+    color: var(--footer-txt);
+    font-size: 11px;
+}
+
+
+
+
