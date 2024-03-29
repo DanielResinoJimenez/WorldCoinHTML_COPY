@@ -107,7 +107,7 @@
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 1rem;
-    
+    margin-bottom: 100px;
 }
 
 .small_card{
@@ -125,6 +125,7 @@
 
 .card_head{
     display: flex;
+    font-size: 15px;
 }
 
 .small_img{
@@ -136,6 +137,75 @@
     color: var(--footer-txt);
     font-size: 11px;
 }
+
+.create{
+    border: 1px solid var(--footer-txt);
+    border-radius: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.create_h2{
+    font-weight: normal;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.create_txt{
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--footer-txt);
+    font-size: 12px;
+}
+
+.create_buttons{
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.button{
+    background-color: var(--footer-bg);
+    color: var(--bg-color);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    width: 250px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: rgb(68, 65, 65);
+}
+
+.button2{
+    background-color: #ebecef;
+    color: #978a96;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    width: 250px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.button2:hover{
+    background-color: #e3e7f5;
+}
+
+
+
 
 
 
