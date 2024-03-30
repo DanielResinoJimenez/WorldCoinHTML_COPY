@@ -127,10 +127,11 @@
 .downcontainer{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .downcontainer_box{
-    width: 45%;
+    max-width: 500px;
 }
 
 .title_m{
@@ -151,4 +152,5 @@
 .text{
     text-decoration: underline;
 }
+
 
