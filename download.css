@@ -1,0 +1,116 @@
+/*DOWNLOAD CSS PAGE*/
+
+.body{
+    margin: 0;
+}
+
+.return{
+    font-family: 'text';
+    font-size: 30px;
+    margin-left: 30px;
+    width: 120px;
+    font-weight: bold;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(206, 195, 195);
+}
+
+.return_link{
+    text-decoration: none;
+    color: var(--footer-txt);
+}
+
+.return_link:hover{
+    border-bottom: 1px solid var(--footer-txt);
+    
+}
+
+/*FORMULARY*/
+
+.title{
+    font-family: 'text';
+    width: 500px;
+    margin-left: 50px;
+}
+
+.formulary{
+    border: 1px solid var(--footer-bg);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 6px 6px var(--footer-txt);
+}
+
+.personal{
+    border-bottom: 1px dashed var(--footer-txt);
+    padding-bottom: 10px;
+}
+
+.subtitle{
+    font-size: 15px;
+    font-family: 'text';
+    margin-left: 15px;
+}
+
+.box1{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input{
+    border: 0;
+    border-bottom: 1px solid var(--footer-txt);
+    outline: none;
+    margin: 10px;
+    width: 220px;
+}
+
+.input:focus{
+    border: none;
+    border-bottom: 1px solid var(--footer-bg);
+}
+
+.input2{
+    border: 0;
+    border-bottom: 1px solid var(--footer-txt);
+    outline: none;
+    margin: 10px;
+    width: 250px;
+}
+
+.input2:focus{
+    border: none;
+    border-bottom: 1px solid var(--footer-bg);
+}
+
+.why{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.questions{
+    font-family: 'text';
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.select{
+    border: 0;
+    border-bottom: 1px solid var(--footer-txt);
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    margin: 30px;
+    font-family: 'text';
+    background-color: var(--footer-bg);
+    border-radius: 20px;
+    color: var(--bg-color);
+}
