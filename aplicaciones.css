@@ -27,6 +27,7 @@
 .dest_app{
     width: 1200px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .app_title{
@@ -36,11 +37,13 @@
 
 .app_cards{
     display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .app_card1{
     border-radius: 5px;
-    width: 200px;
+    min-width: 200px;
     height: 300px;
     margin-right: 20px;
     background-image: url(./../assets/images/App_img1.webp);
@@ -51,7 +54,7 @@
 
 .app_card2{
     border-radius: 5px;
-    width: 200px;
+    min-width: 200px;
     margin-right: 20px;
     background-image: url(./../assets/images/App_img2.svg);
     background-size: cover;
@@ -62,7 +65,7 @@
 
 .app_card3{
     border-radius: 5px;
-    width: 200px;
+    min-width: 200px;
     margin-right: 20px;
     background-image: url(./../assets/images/App_img3.webp);
     background-size: cover;
@@ -91,7 +94,7 @@
 }
 
 .ver_worldid{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 60px;
 }
@@ -141,7 +144,8 @@
 .create{
     border: 1px solid var(--footer-txt);
     border-radius: 10px;
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 500px;
     margin: 0 auto;
     margin-bottom: 90px;
 }
@@ -203,6 +207,11 @@
 .button2:hover{
     background-color: #e3e7f5;
 }
+
+
+
+
+
 
 
 
