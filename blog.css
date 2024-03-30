@@ -1,0 +1,116 @@
+/*BLOG CSS PAGE*/
+
+.body{
+    margin: 0;
+    font-family: 'text';
+}
+
+.main_head{
+    margin-top: 60px;
+    max-width: 600px;
+    margin-left: 50px;
+    
+}
+
+.main_title{
+    font-size: 45px;
+}
+
+.main_subtitle{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.main_body{
+    margin-top: 100px;
+    margin-left: 50px;
+    flex: 1 1 300px;
+}
+
+.searcher{
+    color: var(--footer-txt);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_list{
+    border: 0;
+    border-bottom: 1px solid var(--subtitle-txt);
+    padding: 10px;
+    max-width: 250px;
+    font-size: 15px;
+    flex: 1 1 1100px;
+}
+
+.main_search{
+    border: 0;
+    border-bottom: 1px solid var(--subtitle-txt);
+    padding: 11px;
+    font-size: 15px;
+    max-width: 300px;
+    margin-left: 20px;
+    outline: none;
+}
+
+.main_search:focus{
+    border-bottom: 1px solid black;
+    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 50px;
+}
+
+.main_card{
+    width: 45%;
+    flex: 1 1 500px;
+}
+
+.card_img{
+    max-width: 600px;
+    flex: 1 1 600px
+}
+
+.card_date{
+    color: var(--subtitle-txt);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card_title{
+    font-size: 29px;
+}
+
+.card_link{
+    text-decoration: none;
+    color: black;
+}
+
+.card_link:hover{
+    text-decoration: underline;
+}
+
+.button_container{
+    text-align: center;  
+}
+
+.main_button{
+    background-color: var(--footer-bg);
+    color: var(--bg-color);
+    text-align: center;
+    border: 0;
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-left: -50px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.main_button:hover{
+    background-color: rgb(68, 65, 65);
+}
