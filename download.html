@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+    <link rel="stylesheet" href="./../css/download.css">
+    <link rel="stylesheet" href="./../css/style.css">
+    <script src="https://kit.fontawesome.com/5c6200a37d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <p class="return"><a href="./../index.html" class="return_link">RETURN</a></p>
+    <h2 class="title">Debe completar este formularío de forma válida para poder iniciar la descarga:</h2>
+    <form action="get" class="formulary">
+        <div class="personal">
+            <h3 class="subtitle">Personal:</h3>
+            <div class="box1">
+                <input type="text" class="input" placeholder="Nombre" id="name" required>
+                <input type="text" class="input" placeholder="Apellidos" id="surname" required>
+                <input type="email" class="input" placeholder="Correo Electrónico" id="email" required>
+            </div>
+            <div class="box1">
+                <input type="text" class="input2" placeholder="Dirección" id="direc"  required>
+                <input type="text" class="input2" placeholder="DNI" id="NIF" required>
+            </div>
+            <div class="box1">
+                <input type="password" class="input2" placeholder="Contraseña" id="pass" required>
+            </div>
+        </div>
+        <div class="why">
+            <p class="questions">¿Con que fin quieres usar esta aplicación?</p>
+            <select name="uses" id="uses" class="select">
+                <option value="select">- Selecciona -</option>
+                <option value="earn money">Ganar dinero</option>
+                <option value="know more">Saber más acerca de las monedas virtuales</option>
+                <option value="Two">Ambas</option>
+            </select>
+            <p class="questions">¿Como has conocido Worldcoin?</p>
+            <select name="uses" id="uses" class="select">
+                <option value="select">- Selecciona -</option>
+                <option value="friend">Un amigo</option>
+                <option value="ad">Un anuncio</option>
+                <option value="social">Redes sociales</option>
+            </select>
+            <p class="questions">Valoración Personal:</p>
+            <textarea name="Value" id="" cols="50" rows="10"></textarea>
+        </div>
+        <input type="submit" class="button" value="Descargar">
+        <input type="reset" class="button">
+    </form>
+</body>
+
+</html>
